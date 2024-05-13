@@ -61,6 +61,14 @@ header {
   .flex-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .centered-image {
+    width: 30%;
+    margin-top: 5px;
+    text-align: center;
+    position: relative;
   }
 
   .flex-container > div {
