@@ -14,28 +14,59 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
-  background-color: #75a3e0;
+  padding: 25px;
+  position: relative;
+  background-color: #8eb1f0
 }
 
-.header-left {
+.header-title {
   display: flex;
+}
+
+.header-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-buttons button {
+  margin-right: 10px;
 }
 
 .header-left button {
   margin-right: 10px;
 }
 
-.header-ceter h1 {
-  text-align: center;
-  margin-right: 10px;
-}
-
 .header-right img {
-  max-width: 90px;
-  border-radius: 80%;
+  max-width: 80px;
+  border-radius: 50%;
 }
 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.centered-image {
+  width: 30%;
+  margin-top: 5px;
+  text-align: center;
+  position: relative;
+}
+
+.flex-container > div {
+  width: 20%;
+  padding: 10px;
+  box-sizing: border-box;
+  max-width: calc(100% / 5);
+}
+
+.flex-container img {
+  width: 100%;
+  height: auto;
+  min-width: 100%;
+} 
 
 .container-logo {
   width: auto; 
@@ -76,29 +107,3 @@ header {
     width: 10px; 
     margin-right: 5px;
   }
-
-  .flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .centered-image {
-    width: 30%;
-    margin-top: 5px;
-    text-align: center;
-    position: relative;
-  }
-
-  .flex-container > div {
-    width: 20%;
-    padding: 10px;
-    box-sizing: border-box;
-    max-width: calc(100% / 5);
-  }
-
-  .flex-container img {
-    width: 100%;
-    height: auto;
-    border-radius: 10%;
-  } 
