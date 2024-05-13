@@ -63,15 +63,15 @@ header {
     flex-wrap: wrap;
   }
 
-  .image-container {
-    width: 25%;
+  .flex-container > div {
+    width: 20%;
     padding: 10px;
     box-sizing: border-box;
+    max-width: calc(100% / 5);
   }
 
-  .image-container img {
+  .flex-container img {
     width: 100%;
     height: auto;
-  }
-
-
+    border-radius: 10%;
+  } 
