@@ -14,59 +14,74 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px;
+  padding: 7px;
   position: relative;
-  background-color: #8eb1f0
+  background-color: #f20cad
 }
 
-.header-title {
-  display: flex;
-}
-
-.header-buttons {
-  display: flex;
-  flex-direction: row;
-}
-
-.header-buttons button {
-  margin-right: 10px;
-}
-
-.header-left button {
-  margin-right: 10px;
-}
-
-.header-right img {
-  max-width: 80px;
-  border-radius: 50%;
-}
 
 .flex-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
+  width: 95%;
+  gap: 5px;
+  margin: 8px;
+  margin-top: -2px;
+  margin-left: 50px;
+  
 
-
-.centered-image {
-  width: 30%;
-  margin-top: 5px;
-  text-align: center;
-  position: relative;
 }
 
 .flex-container > div {
-  width: 20%;
-  padding: 10px;
-  box-sizing: border-box;
-  max-width: calc(100% / 5);
+  flex: 1 1 150px;
+  margin: 10px;
+  text-align: left;
+  background-color: #c48d03;;
+  border-radius: 15px;
+  font-size: 30px;
+  font-family: cursive;
+  font-weight: bold;
+  
+  
 }
 
-.flex-container img {
+.img-city {
   width: 100%;
-  height: auto;
-  min-width: 100%;
-} 
+  height: 140px;
+  border-radius: 15px;
+  object-fit: cover;
+  
+}
+
+
+.flex-container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: -25px; /* Ajusta el margen superior */
+  margin-left: 60px; /* Ajusta el margen izquierdo */
+}
+
+.flex-container1 > div {
+  flex: 0 0 calc(25% - 50px); /* Ancho de cada elemento, ajustable según el número de elementos por fila */
+  margin: 10px;
+  text-align: left;
+  background-color: #c48d03;
+  border-radius: 20px;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.img-city1 {
+  width: 260px; /* Ajusta el ancho de la imagen al 100% */
+  height: 130px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
 
 .container-logo {
   flex: 1;
@@ -84,23 +99,203 @@ header {
   box-shadow: 0 0 20px black;
 }
 
-.navbar {
-  width: 70%;
-  height: 100%;     
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.nav-bar {
+  position: relative;
+  left: 13rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  margin-top: -35px;
+  font-weight: bold;
 }
 
 .container-btn {
     display: flex;
     gap: 10px;
     order: 2;
-    margin-top: 85px;
-    background-color: blue;
+    margin-top: 35px;
+    position: relative;
+    right: 50rem;
   }   
   
-  .icon-button img {
-    width: 10px; 
+  .btn-icon {
+    padding: 2px;
+    background-color:#c48d03;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    color: rgb(12, 12, 12);
+    font-family: cursive;
+    font-weight: bold;
+    border: 2px solid #050505;
+  }
+
+  .btn-icon > img{
+    width: 15px;
     margin-right: 5px;
   }
+
+  .container-1 {
+    display: flex;
+    position: relative;
+    left: 18rem;
+    align-items: center; 
+    flex-wrap: wrap;
+    width: calc(15% - 40px);
+    margin-top: 20px;
+    
+}
+
+.container-2 {
+    display: flex;
+    position: relative;
+    left: 27rem;
+    align-items: center; 
+    flex-wrap: wrap;
+    width: calc(45% - 40px);
+    margin-top: -27px;
+   
+
+}
+
+.container-3 {
+    display: flex;
+    position: relative;
+    left: 40rem;
+    align-items: center; 
+    flex-wrap: wrap;
+    width: calc(45% - 40px);
+    margin-top: -27px;
+    
+
+}
+
+.container-4 {
+    display: flex;
+    position: relative;
+    left: 54rem;
+    align-items: center; 
+    flex-wrap: wrap;
+    width: calc(15% - 40px);
+    margin-top: -27px;
+   
+}
+
+input, select{
+    padding: 2px;
+    margin: 2px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    margin-right: 300px;
+    padding: 1;
+    
+} 
+
+label {
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* Footer */
+.footer {
+  background-color: #a06008; 
+  color: #FFFFFF; 
+  text-align: center;  
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  margin-top: -10px;
+  
+}
+
+.red-logo{
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+hr {
+  border: none;
+  height: 2px;
+  background-color: #fafaf5;
+  box-shadow: 0 2px 4px #6f3e14; 
+  width: 100%;
+  margin: 0 auto; 
+ 
+}
+
+.hr1 {
+  border: none;
+  height: 2px;
+  background-color: #fcf8f8;
+  box-shadow: 0 2px 4px  #080808; 
+  width: 20%; 
+  margin: 0 auto; 
+  margin-top: -15px;
+}
+
+@media (max-width: 768px) {
+  .container-1, .container-2, .container-3, .container-4 {
+      left: initial; /* Elimina el left en dispositivos pequeños */
+      width: 100%; /* Usamos el ancho completo en dispositivos pequeños */
+      justify-content: center; /* Centra los elementos en el contenedor */
+      margin-top: 10px; /* Ajusta el margen superior */
+  }
+
+  input, select {
+      width: 90%; /* Hace los input y select más anchos para llenar el contenedor */
+      margin: 5px auto; /* Añade margen automático para centrar */
+  }
+}
+
+@media (max-width: 480px) {
+  input, select {
+      width: 100%; /* Maximiza el ancho para dispositivos muy pequeños */
+  }
+
+  label {
+      font-size: 0.9em; /* Ajusta el tamaño de fuente para mejor legibilidad */
+  }
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+  .container-header {
+      flex-direction: column-reverse;
+      justify-content: center;
+  }
+
+  .container-btn {
+      justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .btn-icon {
+      flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .flex-container1 {
+      width: 100%;  /* Usa el ancho completo del viewport */
+      margin-left: 0; /* Elimina el margen lateral */
+      justify-content: space-around; /* Distribuye el espacio uniformemente */
+  }
+  .flex-container1 > div {
+      flex: 1 1 100%; /* Cada div toma el ancho completo en dispositivos pequeños */
+  }
+  .img-city1 {
+      width: 100%; /* Asegura que la imagen sea responsiva */
+  }
+}
+
+@media (max-width: 768px) {
+  .flex-container img {
+      width: 100%; /* La imagen ocupa el 100% del contenedor */
+  }
+  .flex-container1 img {
+      width: 100%; /* La imagen ocupa el 100% del contenedor */
+  }
+}
